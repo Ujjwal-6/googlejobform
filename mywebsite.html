@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="jobform.css">
+</head>
+<body>
+    <h2>PLEASE FILL THIS FORM FOR YOUR JOB APPLICATION</h2>
+    <form action="backend.php" id="helloform">
+        <label for="name">NAME: </label>
+        <div id="yourname ">
+             <input type="text" name="myName" id="name">
+        </div>
+        <br>
+        <label for="age">AGE: </label>
+        <div id="yourage">
+             <input type="number" name="myAge" id="age">
+        </div>
+        <br>
+        <label for="email">EMAIL: </label>
+        <div id="yourmail">
+             <input type="email" name="myEmail" id="email">
+
+        </div>
+        <br>
+        <label for="date">DATE: </label>
+        <div id="yourdate">
+             <input type="date" name="myDate" id="date">
+        </div>
+        <br>
+        <label for="bonus">BONUS: </label>
+        <div id="yourbonus">
+            <input type="number" name="myBonus", id="bonus">
+        </div>
+        <br>
+        <label for="eligible">ARE YOU ELIGIBLE: </label>
+        <div id="youreligibility">
+             <input type="checkbox" name="myEligibility" id="eligible">
+        </div>
+        <br>
+        <label for="gender">GENDER: </label>
+        <div id="your gender">
+             Male <input type="radio" name="myGender" id="gender" >Female <input type="radio" name="myGender"id="gender" > Other <input type="radio" name="myGender"id="gender" >   
+            
+        </div>
+        <br>
+        <label for="address">PLEASE FILL YOUR ADDRESS</label>
+        <div id="theaddress">
+             <textarea name="yoText" id="address" cols="30" rows="10"></textarea>
+        </div>
+        <label for="description"> WRITE ABOUT YOURSELF: </label>
+        <div id="thedescription">
+             <textarea name="myText"  cols="30" rows="10" id="description"></textarea>
+        </div>
+        <br>
+        <div id="butttons">
+            <input type="button" value="SUBMIT NOW">
+            <input type="reset" value="RESET NOW">
+        </div>
+    </form>
+</body>
+</html>
